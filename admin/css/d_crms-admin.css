@@ -1,0 +1,63 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.ui-progressbar {
+  position: relative;
+
+  height: 2em;
+  text-align: left
+}
+
+.ui-corner-right {
+    -moz-border-radius-topright: 4px;
+    -webkit-border-top-right-radius: 4px;
+    border-top-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px
+}
+
+.ui-corner-left {
+    -moz-border-radius-topleft: 4px;
+    -webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+
+.ui-widget-header{
+    border: 1px solid #aaa;
+    background: url(../images/progress-bg.png) 50% 50% repeat-x #ccc;
+    color: #222;
+}
+
+.ui-widget-content {
+    color: #222;
+
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+
+
+.ui-progressbar .ui-progressbar-value {
+    margin: -1px;
+    height: 100%
+}
+  .progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+
+
+  #importdata p{
+	display: inline-block;
+  }
